@@ -7,6 +7,7 @@ The purpose of the pyber analysis is to create a summary DataFrame of the ride-s
 * For getting the total rides for each city type,I used pandas groupby function on city type and count() method on ride_id column. And for getting the total drivers for each city type I again used groupby function on city type and sum() method on driver_count column.And for  the total amount of fares for each city type,I used groupby function on city type and sum method on fare column.After getting these three results,I calculated for average fare per ride and average fare per driver for each city type.For average fare per ride for each city type,I divided the sum of all the fares by the total rides.And for the average fare per driver for each city type, I divided the sum of all the fares by the total drivers.Finally, add this data to a new DataFrame,delete the index of this dataframe and at last i formatted the columns and get a new formatted pyber summary DataFrame.
 
 * **My formatted Pyber summary DataFrame is look like this:**
+
 ![image](https://user-images.githubusercontent.com/90277142/137607708-f727b03c-e98e-4b3d-9f0c-363a9855303f.png)
 
 
