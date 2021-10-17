@@ -13,8 +13,7 @@ The purpose of the pyber analysis is to create a summary DataFrame of the ride-s
 * I created a new DataFrame from pyber_data_df dataframe with multiple indices using the groupby() function on the "type" and "date" columns, then apply the sum() method on the "fare" column to get the total fare amount for each date.After that i Reset the index on the DataFrame that i was created because This is needed to use the 'pivot()' function.Generalization of pivot that can handle duplicate values for one index only. After resetting the index, I created a pivot table with the 'date' as the index, the columns ='type', and values='fare' to get the total fares for each type of city by the date..This is my code for pivot table : 
 **type_date_sumfare_pivot = type_date_sumfare_df.pivot(values='fare' , index='date', columns='type')** 
 
-* **My Pivot table looks like this:
-* 
+* **My Pivot table looks like this:**
 ![pivot](https://user-images.githubusercontent.com/90277142/137608429-a9489b53-d15d-441d-a7a0-e4206fa7a143.png)
 
 
