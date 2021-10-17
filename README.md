@@ -15,6 +15,7 @@ The purpose of the pyber analysis is to create a summary DataFrame of the ride-s
 **type_date_sumfare_pivot = type_date_sumfare_df.pivot(values='fare' , index='date', columns='type')** 
 
 * **My Pivot table looks like this:**
+
 ![pivot](https://user-images.githubusercontent.com/90277142/137608429-a9489b53-d15d-441d-a7a0-e4206fa7a143.png)
 
 
