@@ -32,4 +32,9 @@ The purpose of the pyber analysis is to create a summary DataFrame of the ride-s
 
      
 #### Summary:
-Based on the results, provide three business recommendations to the CEO for addressing any disparities(a great difference) among the city types.There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. (4 pt)Finally, you’ll submit a written report that summarizes how the data differs by city type and how those differences can be used by decision-makers at PyBer.
+
+* I would like to recommend to CEO, to increase the driver's count in Suburban city type can increase the business significantly.In suburban city type, only 7899 drivers (14% of Urban drivers) can generate $18157.32 (around 48% of urban revenue). Slight increase in driver count can increase more revenue compared to Urban city type.
+
+* In Urban city,I saw the relationship with fare and driver count,If we will increase the driver_count, fare will increse too.So I will recommend to the CEO,if he/she wants to increase business in Urban city, he/She have to increase the driver count.
+
+* Fare per ride in Rural city type is $7.91 is way higher than suburban and Urban city type.Fare per ride in Urban city is only $0.67 and suburban city type is $2.29. But in Rural city type,it is difficult to match the number of rides like Urban and suburban city type .
